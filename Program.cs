@@ -2,13 +2,26 @@
 // и выдаёт, какое число большее
 // e.g. a = 2 b = 10 -> max = 10
 
+Console.WriteLine("Input the first number : ");
+int num1 = Convert.ToInt32 (Console.ReadLine());
 
+Console.WriteLine("Input the second number : ");
+int num2 = Convert.ToInt32 (Console.ReadLine());
+
+if (num1 > num2) 
+{
+  Console.WriteLine("The largest number is : " + num1);
+}
+else
+{
+  Console.WriteLine("The largest number is : " + num2);
+}
 
 
 // Задача 4: Напишите программу, которая принимает на вход три числа 
 // и выдаёт максимальное из этих чисел.
 // e.g. 44 5 78 -> 78
-
+/*
 Console.WriteLine("Input the first number : ");
 int FirstNum = Convert.ToInt32 (Console.ReadLine());
 
@@ -33,6 +46,8 @@ else
 {
   Console.WriteLine("The largest number is : " + SecondNum);
 }
+*/
+
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
