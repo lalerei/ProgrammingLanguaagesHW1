@@ -9,7 +9,30 @@
 // и выдаёт максимальное из этих чисел.
 // e.g. 44 5 78 -> 78
 
+Console.WriteLine("Input the first number : ");
+int FirstNum = Convert.ToInt32 (Console.ReadLine());
 
+Console.WriteLine("Input the second number : ");
+int SecondNum = Convert.ToInt32 (Console.ReadLine());
+
+Console.WriteLine("Input the third number : ");
+int ThirdNum = Convert.ToInt32 (Console.ReadLine());
+
+if (FirstNum > SecondNum)
+{
+  if (FirstNum > ThirdNum)
+  {
+    Console.WriteLine("The largest number is : " + FirstNum);
+  }
+  else 
+  {
+    Console.WriteLine("The largest number is : " + ThirdNum);
+  }
+}
+else
+{
+  Console.WriteLine("The largest number is : " + SecondNum);
+}
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
