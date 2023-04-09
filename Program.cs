@@ -53,7 +53,7 @@ else
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
 // e.g. 4 -> да        7 -> нет
-
+/*
 Console.WriteLine("Input the number you want to check: ");
 int numberA = Convert.ToInt32 (Console.ReadLine());
 
@@ -65,8 +65,19 @@ else
 {
   Console.WriteLine("NO, the number is not even, it is odd");
 }
-
+*/
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), 
 // а на выходе показывает все чётные числа от 1 до N.
 // e.g. 8 -> 2, 4, 6, 8
+
+Console.WriteLine("Input the number: ");
+int number = Convert.ToInt32 (Console.ReadLine());
+
+int current = 2;
+
+while(current <= number)
+{
+  Console.Write(current +" ");
+  current = current+2;
+}
